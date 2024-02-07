@@ -2,7 +2,7 @@
     Input:
         manifest_apuware_utils.xml
         manifest.xml
-        vendor.transsion.hardware.security.hap_device.xml
+        vendor.transsion.hardware.hyperion.hap_device.xml
         manifest_tranlog.xml
         manifest_tranlogconfig.xml
         nfc_manifest.xml
@@ -627,7 +627,7 @@
         <fqname>@1.0::INxpNfcLegacy/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.transsion.hardware.security.hap</name>
+        <name>vendor.transsion.hardware.hyperion.hap</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
